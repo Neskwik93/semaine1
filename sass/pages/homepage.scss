@@ -1,0 +1,27 @@
+#homepage
+{
+  font-family: $font;
+  p //ne marche que en sass evidemment !
+  {
+    color: pink;
+  }
+  form
+  {
+    input
+    {
+      &:nth-child(2n) //premier fils on sait pas pourquoi 
+      {
+        @include form-input(100px,yellow);
+      }
+      &[type="submit"] //on peut cibler des type ou autre comme ça marche aussi en css (sans &)
+      {
+        @include form-input(300px,red);
+        height: 40px;
+      }
+      &:nth-child(3n):hover
+      {
+        cursor: pointer;
+      }
+    }
+  }
+}

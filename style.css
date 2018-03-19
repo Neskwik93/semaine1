@@ -1,0 +1,35 @@
+#homepage {
+  font-family: fantasy; }
+  #homepage p {
+    color: pink; }
+  #homepage form input:nth-child(2n) {
+    display: block;
+    width: 100px;
+    height: 20px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.4;
+    color: #555;
+    background: yellow;
+    border: 1px solid black;
+    -webkit-border-radius: 0px !important;
+    -moz-border-radius: 0px !important;
+    border-radius: 0px !important; }
+  #homepage form input[type="submit"] {
+    display: block;
+    width: 300px;
+    height: 20px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.4;
+    color: #555;
+    background: red;
+    border: 1px solid black;
+    -webkit-border-radius: 0px !important;
+    -moz-border-radius: 0px !important;
+    border-radius: 0px !important;
+    height: 40px; }
+  #homepage form input:nth-child(3n):hover {
+    cursor: pointer; }
+
+/*# sourceMappingURL=style.css.map */

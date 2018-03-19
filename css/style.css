@@ -1,0 +1,23 @@
+body
+{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+div
+{
+  width: 200px;
+  height: 200px;
+}
+.maDiv-1
+{
+  background-color: blue;
+}
+.maDiv-2
+{
+  background-color: yellow;
+}
+.maDiv-3
+{
+  background-color: red;
+}
